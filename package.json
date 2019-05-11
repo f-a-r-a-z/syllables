@@ -1,6 +1,6 @@
 {
     "name": "syllables",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Count syllables in text using a dictionary",
     "main": "index.js",
     "scripts": {
