@@ -1,30 +1,36 @@
-# INSERT [![Build Status](https://api.travis-ci.com/f-a-r-a-z/INSERT.svg?branch=master)](https://travis-ci.org/f-a-r-a-z/INSERT)
+# Syllables [![Build Status](https://api.travis-ci.com/f-a-r-a-z/syllables.svg?branch=master)](https://travis-ci.com/f-a-r-a-z/syllables)
 
 
 
 ## Install
 
 ```
-$ npm install INSERT
+$ npm install syllables
 ```
 
 
 ## Usage
 
 ```js
-const INSERT = require('INSERT');
+const syllables = require('syllables');
 
-INSERT(INSERT);
-//=> INSERT
+syllables('Hello');
+//=> 2
+
+syllables('Hi, how are you?');
+//=> 4
+
+syllables('sjhljhah aiuoihdal ijiajl');
+//=> 0
 ```
 
 
 ## API
 
-### INSERT(INSERT)
+### syllables(str)
 
-#### INSERT
+#### str
 
-Type: `INSERT`
+Type: `string`
 
-INSERT
+Word or sentence to count syllables of. Unrecognised words will have a syllable count of 0.
