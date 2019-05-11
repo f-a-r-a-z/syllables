@@ -1,6 +1,6 @@
 # Syllables [![Build Status](https://api.travis-ci.com/f-a-r-a-z/syllables.svg?branch=master)](https://travis-ci.com/f-a-r-a-z/syllables)
 
-
+Syllables are counted using the [CMU Pronouncing Dictionary](https://en.wikipedia.org/wiki/CMU_Pronouncing_Dictionary), which uses 4MB of storage.
 
 ## Install
 
