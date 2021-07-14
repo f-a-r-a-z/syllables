@@ -29,7 +29,7 @@
         "language"
     ],
     "dependencies": {
-        "cmu-pronouncing-dictionary": "^2.0.0",
+        "cmu-pronouncing-dictionary": "^3.0.0",
         "extractwords": "^1.0.0"
     }
 }
